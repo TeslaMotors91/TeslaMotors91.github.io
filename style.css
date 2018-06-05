@@ -11,11 +11,11 @@ body {
 hr {
   max-width: 65px;
   border-width: 3px;
-  border-color: #030303;
+  border-color: #000000;
 }
 
 .faded {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(15, 15, 15, 0.8);
 }
 
 header.startup {
@@ -26,7 +26,7 @@ header.startup {
 }
 
 header.startup hr {
-  margin-top: 250px;
+  margin-top: 400px;
   margin-bottom: 30px;
 }
 
@@ -46,20 +46,13 @@ header.startup h1 {
 }
 
 .btn-primary {
-  background-color: #030303;
-  border-color: #030303;
+  background-color: #424040;
+  border-color: #424040;
 }
 
 .btn-primary:hover {
-  background-color: #030303;
-  border-color: #6d6b6b;
-  border-width: 4px;
+  background-color: #424040;
+  border-color: #424040;
+  border-width: 5px;
   cursor: pointer;
-}
-.btn-primary:active,
-.btn-primary:visited,
-.btn-primary:focused,
-.btn-primary:active:focus,
-.btn-primary.active:focus {
-  outline: 0 none;
 }
